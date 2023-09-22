@@ -1,0 +1,63 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "";  
+   
+}
+/* Header */
+/* brand-nav */
+
+.after-element{
+    color: #B980AF;
+}
+/* link elements */
+.nav-link{
+    margin-left:10px;
+}
+.nav-link:hover{
+    border-bottom: 2px #B980AF solid;
+    transition: .10s;
+}
+/* dropdown-menu */
+.dropdown-menu .dropdown-item:hover{
+    background-color: #B980AF;
+}
+
+/* Login register button */
+a .login-button {
+    color: white;
+}
+a .login-button:hover{
+    color: #B980AF;
+}
+a .register-button{
+    background-color: #B980AF;
+}
+a .register-button:hover{
+    background-color: #B980AF;
+    color: black;
+}
+
+/* Main Container and background image */
+
+.body-image{
+    position: absolute;
+    max-width: 100vw;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    top: 0;
+    background-size: cover;
+    /* background-image: url("imagenes/Frame\ 6.png"); */
+    background-position: center;
+}
+@media (min-width:300px) {
+    .body-image{width: 100%}
+}
+.container{
+    position: relative;
+    width: 100vw;
+    
+}
