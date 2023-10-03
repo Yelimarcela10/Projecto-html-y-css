@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Aprende HTML y CSS</title>
 </head>
-<body>
+<body style="background-color: rgba(126, 116, 240, 29%)">
     <header>
       <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
@@ -37,8 +37,9 @@
               </li>
             </ul>
               <li class="login-register d-flex ">
-                  <a href="#"><button type="button " class="btn login-button  ">Ingresar</button></a>
-                  <a href="#"><button type="button" class="btn register-button">Registrarse</button></a>
+                  <!-- <a href="#"><button type="button " class="btn login-button  ">Ingresar</button></a> -->
+                  <button type="button" class=" btn-login p-2">Ingresar</button>
+                  <button type="button" class=" register-button p-2 m-2">Registrarse</button>
               </li>
           </div>
         </div>
@@ -46,121 +47,160 @@
     </header>
     
     <main>
-        <section >
-          
+        <section class="section-1 mb-5">
+           <img src="imagenes/Frame 7.png" class="body-image " alt="">  
             <div class="container m-0 p-0">
-              <div class="image-div">
-                <img src="imagenes/Frame 6.png" class="body-image w-100 image-fluid " alt=""> 
-              </div>
-
-                <div class="info-container d-flex justify-content-center align-items-center  ">
+                <div class="info-container  d-flex justify-content-center align-items-center  ">
                     <div class="row">
-                      <div class="col-6 md-8 ">
-                        <div class="title-content ">
+                      <div class="md-6 col-md-6">
+                        <div class="title-content  text-center ps-3 ">
                           <h1>Title</h1>
                         </div>
-                        <div class="text-content mt-5">
-                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veniam doloribus aperiam nobis nesciunt incidunt veritatis. Facere, fugit ex? Accusamus optio assumenda iure excepturi ratione reiciendis quae corporis ullam cumque.</p>
+                        <div class="text-content text-center  ">
+                          <p class="paragraph-content text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veniam doloribus aperiam nobis nesciunt incidunt veritatis. Facere, fugit ex? Accusamus optio assumenda iure excepturi ratione reiciendis quae corporis ullam cumque.</p>
+                          <button class="btn-section-1 " role="button" href="#" type="button">Link</button>
+                          <button class="btn-section-2 " role="button" href="#" type="button">Link</button>
                         </div>
                       </div>
-                      <div class="col-6 md-4 ">
+                      <div class="md-6 col-sm- col-md-6 ">
                         <div class="img-content">
-                          
+                          <img src="imagenes/Update.png" class="image-flex image-fluid w-100 h-50 mb-5 m-0 p-0" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
-
+                  </div> 
               </div>
         </section>
-        <section >
-          <div class="container">
-              <div class="info-container d-flex justify-content-center align-items-center m-5 pt-5 ">
-                  <div class="row">
-                    <div class="col-6 md-8 ">
-                      <div class="title-content ">
-                        <h1>Title</h1>
-                      </div>
-                      <div class="text-content mt-5">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veniam doloribus aperiam nobis nesciunt incidunt veritatis. Facere, fugit ex? Accusamus optio assumenda iure excepturi ratione reiciendis quae corporis ullam cumque.</p>
-                      </div>
+        <section>
+             <!-- <img src="imagenes/Vector.png" class="body-image " style="min-height: 100vh;max-height: 155vh;" alt="">  -->
+              <!--Cards-->  
+            <div class="container m-0 p-0 pt-2 text-center">
+             <div class="info-container m-5 p-0 ">
+               <div class="title-content ps-5 text-center  ">
+                  <h1 class="title-section text-center  ">Nuestros cursos de</br> Diseño Web</h1>
+                  <p class="section-paragraph-content pt-3">Descubre acerca de nuestro contenido y de nuestros pogramas de aprendizaje.</p>
+                </div> 
+                <!-- Primera card -->
+                <div class="row row-cols-2 m-0 p-0 mt-0 pt-5 d-flex justify-content-center align-items-center ">
+                    <div class="col-12 col-md-3 col-sm-7 m-3 p-3 ">
+                      <div class="card border-3 border-black  border-opacity-75 m-5 mt-0 p-2 " style="width: 15rem;">
+                        <img src="imagenes/logo-2582748_1280.png" class="card-img-top" alt="Orange logo of HTML">
+                        <div class="card-body">
+                          <p class="card-text fs-3 "> <b> HTML</b></p>
+                          <p class="fs-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde alias voluptatum ab cum nisi totam inventore, eligendi ipsam, laboriosam </p>
+                          <button class="btn-card " role="button" href="#" type="button">Link</button>
+                        </div>
+                     </div>
                     </div>
-                    <div class="col-6 md-4 ">
-                      <div class="img-content">
-                        
-                      </div>
+                    <!-- Segunda card -->
+                    <div class="col-12 col-md-3 col-sm-7 p-3 m-3">
+                      <div class="card  border-3 border-black border-opacity-75 m-5 mt-0 p-2" style="width: 15rem;">
+                        <img src="imagenes/logo-2582747_1280.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text fs-3"> <b> CSS</b></p>
+                          <p class="fs-8 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.delectus aperiam nobis , praesentium quod optis, perspiciatis officia?</p>
+                          <button class="btn-card " role="button" href="#" type="button">Link</button>
+                        </div>
+                     </div>
                     </div>
-                  </div>
-                </div>
-
-            </div>
-      </section>
-      <section>
-        <div class="container">
-            <div class="info-container d-flex justify-content-center align-items-center m-5 pt-5 ">
-                <div class="row">
-                  <div class="col-6 md-8 ">
-                    <div class="title-content ">
-                      <h1>Title</h1>
-                    </div>
-                    <div class="text-content mt-5">
-                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veniam doloribus aperiam nobis nesciunt incidunt veritatis. Facere, fugit ex? Accusamus optio assumenda iure excepturi ratione reiciendis quae corporis ullam cumque.</p>
-                    </div>
-                  </div>
-                  <div class="col-6 md-4 ">
-                    <div class="img-content">
-                      
-                    </div>
-                  </div>
                 </div>
               </div>
-
-          </div>
-    </section><section>
-      <div class="container">
-          <div class="info-container d-flex justify-content-center align-items-center m-5 pt-5 ">
-              <div class="row">
-                <div class="col-6 md-8 ">
-                  <div class="title-content ">
-                    <h1>Title</h1>
-                  </div>
-                  <div class="text-content mt-5">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veniam doloribus aperiam nobis nesciunt incidunt veritatis. Facere, fugit ex? Accusamus optio assumenda iure excepturi ratione reiciendis quae corporis ullam cumque.</p>
-                  </div>
-                </div>
-                <div class="col-6 md-4 ">
-                  <div class="img-content">
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-
-        </div>
-  </section>
-  <section>
-    <div class="container">
-        <div class="info-container d-flex justify-content-center align-items-center m-5 pt-5 ">
-            <div class="row">
-              <div class="col-6 md-8 ">
-                <div class="title-content ">
-                  <h1>Title</h1>
-                </div>
-                <div class="text-content mt-5">
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veniam doloribus aperiam nobis nesciunt incidunt veritatis. Facere, fugit ex? Accusamus optio assumenda iure excepturi ratione reiciendis quae corporis ullam cumque.</p>
-                </div>
-              </div>
-              <div class="col-6 md-4 ">
-                <div class="img-content">
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-
-      </div>
-</section>
+            </div> 
+        </section>
+        <section>
+          <img src="imagenes/Vector (2).png" class="body-image " alt=""> 
+            <!--Cards  -->
+            <div class="container m-0 mt-0 p-0 pt-2 text-center">
+              <div class="info-container m-5 p-0 ">
+                <div class="title-content ps-5 text-center  ">
+                   <h1 class="title-section text-center  ">Nuestros cursos de </br> Diseño de interfaces y Pixel Art</h1>
+                   <p class="section-paragraph-content pt-2">Descubre acerca de nuestro contenido y de nuestros pogramas de aprendizaje.</p>
+                 </div> 
+                 <div class="row row-cols-2 m-0 p-0 mt-0 pt-5 d-flex justify-content-center align-items-center ">
+                      <!-- tercera card -->
+                    <div class="col-12 col-md-3 col-sm-7  p-3 m-3">
+                     <div class="card  border-3 border-black border-opacity-75 m-5 p-2" style="width: 15rem;">
+                       <img src="imagenes/clipart2204860.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                         <p class="card-text">UX/UI</p>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aliquid, repellendus voluptatum tempore eligendi quod </p>
+                         <button class="btn-card " role="button" href="#" type="button">Link</button>
+                       </div>
+                    </div>
+                   </div>
+                     <!-- Cuarta card -->
+                     <div class="col-12 col-md-3 col-sm-7 p-3 m-3 ">
+                       <div class="card   border-3 border-black  border-opacity-75 m-5 p-2" style="width: 15rem;">
+                         <img src="imagenes/IMG-20230921-WA0078.jpg" class="card-img-top rounded-circle" alt="...">
+                         <div class="card-body">
+                         <p class="card-text">Pixel Art</p>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde alias voluptatum ab cum nisi totam inventore, eligendi ipsam </p>
+                         <button class="btn-card " role="button" href="#" type="button">Link</button>
+                       </div>
+                     </div>
+                    </div>
+                 </div>
+               </div>
+             </div>
+        </section>
+        <section class="section-1 mb-5">
+          <img src="imagenes/Frame 8.png" class="body-image " alt="">  
+           <div class="container m-0 p-0">
+               <div class="info-container  d-flex justify-content-center align-items-center  ">
+                   <div class="row">
+                     <div class="md-6 col-md-6">
+                       <div class="title-content  text-center ps-3 ">
+                         <h1>¿Quiénes somos?</h1>
+                       </div>
+                       <div class="text-content text-center  ">
+                         <p class="paragraph-content text-start">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veniam doloribus aperiam nobis nesciunt incidunt veritatis. Facere, fugit ex? Accusamus optio assumenda iure excepturi ratione reiciendis quae corporis ullam cumque.</p>
+                       </div>
+                     </div>
+                     <div class="md-6 col-sm- col-md-6 ">
+                       <div class="img-content">
+                         <img src="imagenes/Update.png" class="image-flex image-fluid w-100 h-50 mb-5 m-0 p-0" alt="">
+                       </div>
+                     </div>
+                   </div>
+                 </div> 
+             </div>
+       </section>  
     </main>
+    <section class="footer-section">
+      <footer class="footer mt-5 mb-4 footer-container  pt-2 ">
+        <div class="container mt-5 d-flex align-items-center flex-column">
+          <div class="row g-5 ">
+            <div class="col-sm-3 ">
+              <h5 class="footer-sub-title text-center p-1 fs-4">Redes sociales</h5>
+              <div class="logos-column-1  text-center pt-3">
+                <a href="#" target="_blank"> <i class="bi bi-facebook"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                <div class="logos-column-2 pt-2" >
+                  <a href="#" target="_blank"><i class="bi bi-github"></i></a> 
+                  <a href="#" target="_blank"> <i class="bi bi-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+              
+              <div class="col-sm-3">
+                <h5 class="footer-sub-title text-center p-1 fs-4">Contacte con nosotros</h5>
+                <div class="footer-text-content text-center pt-2">
+                  <a href="#" target="_blank"><h6 class="footer-paragraph fs-6" >Envíenos un email</h6></a>
+                  <a href="#" target="_blank"><h6>+57 310 4069 155</h6></a>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <h5 class="footer-sub-title text-center p-1 fs-4">Nuestra compañía</h5>
+                <div class="footer-text-content text-center pt-2">
+                  <a href="#" target="_blank" ><h6>Nosotros</h6></a>
+                  <a href="#" target="_blank" rel="noopener noreferrer"><h6>Comunidad</h6></a>
+                  <a href="#" target="_blank" rel="noopener noreferrer"><h6>Trabaje con nosotros</h6></a>
+                  <a href="#" target="_blank" rel="noopener noreferrer"><h6>Noticias</h6></a>
+                </div>
+            </div>
+            
+          </div>
+    
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
