@@ -1,0 +1,88 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: ""; 
+    /* background-image: url("imagenes/Group\ 12-2.png") ; */
+    /* background-size: 100%;
+    background-repeat: no-repeat; */
+    background-color: #ecebe3;
+
+}
+/* Header */
+/* brand-nav */
+.after-element{
+    color: #B980AF;
+}
+/* after element  */
+.main-title  .after-element, .title-content .after-element{
+    color: #f2a355;
+}
+/* link elements */
+.nav-link{
+    margin-left:10px;
+}
+.nav-link:hover{
+    border-bottom: 2px #B980AF solid;
+    transition: .10s;
+}
+/* dropdown-menu */
+.dropdown-menu .dropdown-item:hover{
+    background-color: #B980AF;
+}
+
+/* Login and register button */
+.login-register .btn-login:hover{
+   color: #B980AF;  
+}
+.login-register .btn-login{
+    border:none;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border-radius: 5px; 
+}
+/* register button */
+.login-register .register-button{
+    background-color: #B980AF;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
+.login-register .register-button:hover {
+    background-color: #b980aecf;
+    color: black;
+}
+/* aside list */
+ .list-group {
+    max-width: 230px; 
+    min-width: 8rem;
+}
+.list-group .list-group-item{
+    background-color: #f2a355a6;
+    border-color: black;
+    font-size: 18px;
+}
+.list-group .list-group-item:hover{
+    background-color: #f2a355;
+    border-color: black;
+    font-size: 18px;
+}
+.list-group #list-item-1{
+    background-color: #f2a355;
+    font-weight: 700;
+}
+/* images */
+.image-third {
+    border-radius: 10px;
+    box-shadow: 5px  4px 10px 2px black ;
+}
+.image-second{
+    border-radius: 10px;
+}
+/* {
+    background-color: #f4be89;
+    border-radius: 50%;
+    width: 650px;
+    height: 70vh;
+    transform: translate(50%);
+} */
