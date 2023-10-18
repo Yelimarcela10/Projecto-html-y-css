@@ -67,7 +67,7 @@ body {
     border-color: black;
     font-size: 18px;
 }
-.list-group #list-item-1{
+.list-group #list-item-4{
     background-color: #f2a355;
     font-weight: 700;
 }
@@ -87,10 +87,3 @@ body {
     padding: 15px;
     
 }
-/* {
-    background-color: #f4be89;
-    border-radius: 50%;
-    width: 650px;
-    height: 70vh;
-    transform: translate(50%);
-} */

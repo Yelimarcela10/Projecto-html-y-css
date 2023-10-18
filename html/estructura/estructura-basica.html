@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="html.css">
+    <link rel="stylesheet" href="estructura-basica.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Document</title>
+    <title>Estructura básica</title>
 </head>
 <body>
     <header>
@@ -60,54 +60,90 @@
                <div class="col-3 p-3 "  > <!--style="overflow-y: auto; max-height: 900px"-->
                 <div id="list-example" class="list-group ps-2"  >
                   <a class="list-group-item list-group-item-action " href="/html/html.html" id="list-item-1"> <i class="bi bi-filetype-html pe-2"></i>Introducción</a>
-                  <a class="list-group-item list-group-item-action" href="/html/etiquetas/etiquetas.html" id="list-item-2">Etiquetas</a>
-                  <a class="list-group-item list-group-item-action" href="/html/elementos-vacios-y-llenos/elementos.html">Elementos llenos y vacíos</a>
-                  <a class="list-group-item list-group-item-action" href="/html/estructura/estructura-basica.html">Estructura básica</a>
-                  <a class="list-group-item list-group-item-action" href="/html/atributos/atributos.html ">Atributos</a>
+                  <a class="list-group-item list-group-item-action" href="/html/etiquetas/etiquetas.html" id="list-item-2">Navegador</a>
+                  <a class="list-group-item list-group-item-action" href="/html/elementos-vacios-y-llenos/elementos.html">Elementos Llenos y Vacíos</a>
+                  <a class="list-group-item list-group-item-action" href="/html/estructura/estructura-basica.html" id="list-item-4">Estructura básica</a>
+                  <a class="list-group-item list-group-item-action" href="/html/atributos/atributos.html ">Item 4</a>
                   <a class="list-group-item list-group-item-action" href="/html/tablas/tablas.html">Tablas</a>
                   <a class="list-group-item list-group-item-action" href="/html/formularios/formularios.html">Formularios</a>
-             
+                  
+    
+
                 </div>
               </div>
               <div class="col-9 m-0">
                 <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
                 
                   <div class="title-content pt-0 m-3 mb-3">
-                    <h1 id="list-item-1" class="title main-title text-center fs-1">Introducción a HTML:  ¿Qué es <span  class="after-element">HTML?</span></h1>
+                    <h1 id="list-item-4" class="title main-title text-center fs-1">Estructura básica de un documento <span  class="after-element">HTML</span></h1>
                     <p class="description text-center  mt-4 p-3 fs-5">(Lenguaje de Marcado de Hipertexto) Es el lenguaje estándar utilizado para crear y estructurar contenido en la web.
                       <span  class="after-element"><b> HTML </b></span> es el lenguaje fundamental que se utiliza para diseñar y organizar páginas web. Funciona mediante el uso de etiquetas o elementos que indican al navegador web cómo presentar el contenido en una página. </p>
                     <div class="container m-4 d-flex justify-content-center align-items-center">
                       <div class="row gx-5">
                         <div class=" col-12 col-md-6 col-sm-7 ">
-                        <div class="paragraph-content p-3 fs-5 "><p>En terminos generales,<span  class="after-element"> <b> HTML</b></span> se utiliza para definir la estructura de una página web, incluyendo títulos, párrafos, encabezados, enlaces, listas, imágenes y más.
-                          Los navegadores web interpretan el código <span  class="after-element" > <b> HTML </b></span> y muestran el contenido en una página web de manera coherente en diferentes plataformas?.</p></div>
+                         <img class="image-second w-100 h-100 " src="/imagenes/estructura.html.png"  alt="">
                         </div>
                         <div class="col-12 col-md-6 col-sm-7 p-2">
-                          <img class="image-second w-100 h-100  " src="/imagenes/b5caf6ff-ea59-4c08-b0cc-eabc01330bc1.png" alt="">
+                          <img class="image-second w-100 h-100  " src="/imagenes/estructura-HTML5.png" alt="">
                         </div>
                       </div>
                   </div>
                 </div>
                 <div class="title-content pt-0 m-0 mt-3  mb-5">
-                  <h1 class="title text-center fs-1"> ¿Cómo funcionan las <span  class="after-element">paginas web</span>?
-                  </h1>
-                  <p class="description text-start mt-4 p-3 fs-5">
-                    Las páginas web son documentos electrónicos que funcionan mediante un el lenguaje de marcado de hipertexto <span  class="after-element"> <b>(HTML)</b> </span>.
-                    Los navegadores web (como Chrome, Firefox, etc.) interpretan el <span  class="after-element"> <b> HTML </b></span> y muestran el contenido visualmente, sin embargo, es común encontrarse con que estas paginas web incluyen otros recursos como hojas de estilo (CSS), scripts (JavaScript) e imágenes con el fin de hacer la pagina esteticamente más llamativa.</p>
-                    <div class="pt-3 fs-5 ms-2 ">
-                      <img  class="image-third image-fluid w-100  " src="/imagenes/navegadores-2397647.webp" alt="">
-                    </div>
+                  <h1 class="title text-center fs-1 "> Etiquetas usadas para la  <span  class="after-element">estructura básica</span> </h1>
+
+                  <table class="table mb-5 table-striped  text-center">
+                
+                    <p class="description text-center  mt-4 p-3 fs-5">Las etiquetas más utlizadas para mantener una correcta estructura de una página web:</p>
+                
+                <thead>
+                  <tr>
+                    <th scope="col">Etiqueta</th>
+                    <th scope="col">Descripción</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">&lt;!DOCTYPE&gt;</th>
+                    <td>Determina el tipo de documento HTMl en el que trabajamos.</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;html&gt;</th>
+                    <td>Con esta etiqueta el documento se definirá como un HTML</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;head&gt;</th>
+                    <td>En esta etiqueta se almacenan los metadatos necesarios para el documento.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;title&gt;</th>
+                    <td>Contiene el título del documento</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;body&gt;</th>
+                    <td>En esta etiqueta se almacena todo el contenido de nuestra página, tanto como contenedores como imágenes.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;section&gt;</th>
+                    <td>Podemos agregar varias secciones de nuestro contenido y agregar nuestros elementos.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">&lt;footer&gt;</th>
+                    <td>Nos indica el pie de página.</td>
+                  </tr>
+                </tbody>
+              </table> 
               </div>
               </div>
             </div>
           </div>
           
-        </div>
-           
-        
+        </div>   
       
       </main>
-    <script src="html.js"></script>
+    <script src="estructura-basica.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
