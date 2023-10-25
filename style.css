@@ -51,7 +51,12 @@ body {
 
 /* container */
 .section-2{
-    margin-top: 15%;
+    margin-top: 25%;
+    background-color: #a58ef7;
+    border-radius: 30% 70% 25% 75% / 84% 53% 47% 16%  ;
+}
+.section-3{
+    margin-top: 10%;
     background-color: #a58ef7;
     border-radius: 30% 70% 25% 75% / 84% 53% 47% 16%  ;
 }
@@ -139,6 +144,7 @@ body {
     /* text-shadow: 0 1px 7px rgba(0,0,0,0.6); */
 }
 
+
 /* Button cards */
 .container .btn-card{
     border-radius: 5px;
@@ -156,27 +162,9 @@ body {
     box-shadow: none;
     transform: translateY(4px);
 }
-/* footer */
-section .body-image-section-3 {
-    height: 100%;
-    margin-top: %;
-}
-footer {
-    background-color: black;
-    color: white;
-}
-.footer-section a{
-    color:white;
-    list-style: none;
-    text-decoration: none;
-}
-.footer-section a:hover {
-    border-bottom: 2px #B980AF solid;
-    transition: .10s;
-}
 
 
-/* Main Container and background image */
+
 
 /* .image-div {
     position: relative;

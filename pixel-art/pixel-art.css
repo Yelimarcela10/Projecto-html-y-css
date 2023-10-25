@@ -1,0 +1,140 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #B980AF;;
+
+}
+/* Header */
+/* brand-nav */
+.after-element{
+    color: #B980AF;
+}
+/* link elements */
+.nav-link{
+    margin-left:10px;
+}
+.nav-link:hover{
+    border-bottom: 2px #B980AF solid;
+    transition: .10s;
+}
+/* dropdown-menu */
+.dropdown-menu .dropdown-item:hover{
+    background-color: #B980AF;
+}
+
+/* Login and register button */
+.login-register .btn-login:hover{
+   color: #B980AF;  
+}
+.login-register .btn-login{
+    border:none;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border-radius: 5px; 
+}
+/* register button */
+.login-register .register-button{
+    background-color: #B980AF;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
+.login-register .register-button:hover {
+    background-color: #b980aecf;
+    color: black;
+}
+/* Main container */
+.main-container .row{
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5e9ea, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f9e0e3, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+  
+}
+.main-container .image{
+    background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 0 10px 10px 0;
+}
+
+.title {
+    color: rgb(165, 59, 158);
+    font-size: 3rem;
+    
+}
+.paragraph{
+    border-radius: 10px;
+    background-color: #fffeffd6;
+    font-size: 17px;
+    font-family: monospace;
+    
+}
+.image-container{
+    
+    width: 100%;
+    height: 90%;
+
+}
+
+/* second-container */
+.section-2  {
+    background-color: black;
+    /* background-image: url(/imagenes/44a75eec57302fb40f8458fb56ec2b7f-phone-pixel-art.png);
+    background-size:10%;
+     */
+}
+.container-section .paragraph{
+    background-color: rgb(139, 162, 206);
+    border-bottom: 10px white solid;
+}
+.title-section-2{
+    color: white;
+    font-family: monospace;
+    font-size: 3rem;
+}
+.phone-image{
+    width: 70px;
+    height: 70px; 
+}
+/* button */
+.container .btn-card{
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 5px #8568f0;
+    width: 5rem;
+    background-color: #ddd6f3;
+    color:black;
+    font-family: monospace;
+}
+.container .btn-card:hover{
+    background-color: #c2b5f1;
+    box-shadow: 0 5px #6c47f3;
+}
+.container .btn-card:active{
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+/* SECTION 3 */
+.section-3 {
+    background-color: #c0b2f2;
+}
+.title-section-3{
+    color: #7a56fd;
+    font-weight: 800;
+}
+.paragraph {
+    border-bottom: 10px #8568f0 solid;
+}
+.image-content{
+    border-radius: 40px;
+}
+/* Section 4 */
+.section-4{
+    background-color: rgb(255, 213, 220);
+}
+.container-section-4 .paragraph{
+    border-bottom:10px #B980AF solid ;
+}
